@@ -661,9 +661,9 @@
     #define DEFAULT_Ki_LIST {   1.14,   1.14 }
     #define DEFAULT_Kd_LIST {  46.57,  46.57 }
   #else
-    #define DEFAULT_Kp  14.58
-    #define DEFAULT_Ki   1.14
-    #define DEFAULT_Kd  46.57
+    #define DEFAULT_Kp  20.71
+    #define DEFAULT_Ki   2.01
+    #define DEFAULT_Kd  53.46
   #endif
 #endif
 
@@ -1648,7 +1648,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR false
+#define INVERT_E0_DIR true
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
